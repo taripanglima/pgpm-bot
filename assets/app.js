@@ -1,5 +1,5 @@
 /* PGPM Mini App. Configure Supabase URL and anon key in CONFIG below. */
-const CONFIG={SUPABASE_URL:'YOUR_SUPABASE_PROJECT_URL',SUPABASE_ANON_KEY:'YOUR_SUPABASE_ANON_KEY'};
+const CONFIG={SUPABASE_URL:'https://mwqnigqvrrnyughmkbbx.supabase.co',SUPABASE_ANON_KEY:'sb_publishable_jGAA6JqpqVbkqtahFAA5sw_HDX3Rnk7'};
 const $=s=>document.querySelector(s);let db=null,user=null,profile=null,page='dashboard',scanner=null;
 // Telegram Mini Apps: initialise the host SDK when opened inside Telegram.
 const tg=window.Telegram?.WebApp||null;
